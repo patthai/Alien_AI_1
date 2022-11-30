@@ -1,0 +1,72 @@
+@font-face{
+  font-family: "alienfont";
+  src: url("../font/Echolot.ttf");
+  
+}
+ 
+alien {
+   font-family: alienfont;
+   color: white;
+    font-size: 60px;
+}
+
+.parent_class{
+  width: 300px;
+}
+.object_round{
+ position: absolute;
+ left: 50%;
+ width: 150px;
+ transform: translate(-50%, -50%);
+ border-radius: 200px;
+ top: -100px;
+  
+}
+
+.object_ring_1 {
+ position: absolute;
+ left: 50%;
+ width: 230px;
+ transform: translate(-50%, -50%);
+ top: -100px;
+
+}
+
+.object_ring_2 {
+ position: absolute;
+ left: 50%;
+ width: 200px;
+ transform: translate(-50%, -50%);
+ top:-100px;
+
+}
+
+.object_ring_3 {
+ position: absolute;
+ left: 50%;
+ width: 170px;
+ transform: translate(-50%, -50%);
+ top:-100px;
+
+}
+
+.spin_1{
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+.spin_2{
+  animation-name: spin;
+  animation-duration: 8000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+.spin_3{
+  animation-name: spin;
+  animation-duration: 11000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
